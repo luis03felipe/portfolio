@@ -1,0 +1,135 @@
+#about {
+  margin: 0 2vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.sobre-mim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);
+  gap: 2rem;
+  padding: 0 6rem;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.sobre-mim:hover {
+  box-shadow: 0 0 20px var(--white), 0 0 20px var(--white),
+    0 0 20px var(--white), 0 0 20px var(--white);
+}
+
+.sobre-txt p {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 300;
+  text-align: justify;
+}
+
+.sobre-txt span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.front-wrapper {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+/* CARD UM */
+.front-dev {
+  text-align: center;
+  margin: 1rem 0;
+  width: 60%;
+  background: rgba(136, 255, 92, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.front-dev:hover {
+  box-shadow: 0 0 20px var(--main-green), 0 0 20px var(--main-green),
+    0 0 20px var(--main-green), 0 0 20px var(--main-green);
+}
+
+.front-dev h1 {
+  color: var(--white);
+  padding: 1rem;
+}
+
+.front-dev img {
+  padding: 2rem 1rem;
+}
+
+/* CARD DOIS */
+.ui-ux {
+  margin: 1rem 0;
+  color: var(--white);
+  width: 40%;
+  background: rgba(106, 219, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  text-align: center;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.ui-ux:hover {
+  box-shadow: 0 0 20px var(--main-blue), 0 0 20px var(--main-blue),
+    0 0 20px var(--main-blue), 0 0 20px var(--main-blue);
+}
+
+.ui-ux h1 {
+  color: var(--white);
+  padding: 1rem;
+}
+
+.ui-ux img {
+  padding: 2rem 1rem;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+  .sobre-mim img {
+    display: none;
+  }
+  .front-wrapper {
+    display: block;
+  }
+  .front-dev {
+    width: 100%;
+  }
+  .ui-ux {
+    width: 100%;
+  }
+  .sobre-mim {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .sobre-txt h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+
+  .sobre-txt p {
+    font-size: clamp(1.2rem, 6vw, 1rem);
+  }
+
+  .front-dev h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+
+  .front-wrapper img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
