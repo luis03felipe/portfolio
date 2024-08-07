@@ -1,0 +1,64 @@
+#techs {
+  margin: 0 10vh;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.skill-card {
+  padding: 2.25rem 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  border: 1px solid var(--white);
+}
+
+.skill-card:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+}
+
+.skill-card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.techs-title h1 {
+  padding: 1rem 0;
+}
+
+@media (min-width: 1200px) {
+  .card-wrapper {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* Grid para tablets */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .card-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .techs-title h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+}
+
+/* Grid para mobile */
+@media (max-width: 767px) {
+  .card-wrapper {
+    grid-template-columns: 1fr; /* 1 coluna que ocupa todo o espaço disponível */
+  }
+  .techs-title h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+}

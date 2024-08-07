@@ -2,14 +2,10 @@
   font-family: "Poppins", sans-serif;
   color: var(--white);
   margin: 0 10%;
-  height: 90vh;
+  height: 92vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.main-text-dev_front {
-  padding: 10rem 0;
+  justify-content: space-around;
 }
 
 .gradient-fade {

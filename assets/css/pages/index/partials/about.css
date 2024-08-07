@@ -3,6 +3,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* CARD SOBRE MIM */
 .sobre-mim {
   display: flex;
   align-items: center;
@@ -20,6 +21,10 @@
 .sobre-mim:hover {
   box-shadow: 0 0 20px var(--white), 0 0 20px var(--white),
     0 0 20px var(--white), 0 0 20px var(--white);
+}
+
+.sobre-mim img{
+  width: 100%;
 }
 
 .sobre-txt p {
@@ -42,6 +47,7 @@
 
 /* CARD FRONT-END DEVELOPER */
 .front-dev {
+  padding: 2rem;
   text-align: center;
   margin: 1rem 0;
   width: 60%;
