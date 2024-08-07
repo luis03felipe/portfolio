@@ -18,6 +18,7 @@
   backdrop-filter: blur(5.6px);
   -webkit-backdrop-filter: blur(5.6px);
   border: 1px solid var(--white);
+  transition: 0.5s ease-in;
 }
 
 .skill-card:hover {
@@ -25,6 +26,7 @@
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(5.6px);
   -webkit-backdrop-filter: blur(5.6px);
+  transition: 0.5s ease-out;
 }
 
 .skill-card p {

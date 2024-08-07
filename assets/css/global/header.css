@@ -76,10 +76,12 @@ header {
   font-size: 0.8rem;
   cursor: pointer;
   transition: scale 0.2 ease;
+  transition: 0.5s ease-in;
 }
 
 .action-btn:hover {
   scale: 1.05;
+  transition: 0.5s ease-out;
 }
 
 .action-btn:active {
