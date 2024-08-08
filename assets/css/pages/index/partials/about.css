@@ -23,7 +23,7 @@
     0 0 20px var(--white), 0 0 20px var(--white);
 }
 
-.sobre-mim img{
+.sobre-mim img {
   width: 100%;
 }
 
@@ -76,6 +76,7 @@
 /* CARD UI/UX */
 .ui-ux {
   margin: 1rem 0;
+  padding: 2rem;
   color: var(--white);
   width: 40%;
   background: rgba(106, 219, 255, 0.2);
@@ -194,5 +195,24 @@
 
   .projeto h1 {
     font-size: clamp(2rem, 6vw, 3rem);
+  }
+
+  .ui-ux h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+}
+
+@media (max-width: 425px) {
+  .front-dev h1 {
+    font-size: clamp(1.5rem, 6vw, 3rem);
+  }
+  .ui-ux h1 {
+    font-size: clamp(1.5rem, 6vw, 3rem);
+  }
+  .projeto h1 {
+    font-size: clamp(1.5rem, 6vw, 3rem);
+  }
+  .sobre-txt h1 {
+    font-size: clamp(1.5rem, 6vw, 3rem);
   }
 }

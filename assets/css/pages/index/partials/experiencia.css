@@ -1,6 +1,5 @@
 #experiencia {
   padding: 2rem 0;
-
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
@@ -51,10 +50,21 @@
 }
 
 @media (max-width: 767px) {
-  .respo-title {
-    font-size: clamp(2rem, 6vw, 3rem);
-  }
+ 
   .logos-slide img {
     height: 50px;
+  }
+  .exp-btn{
+    font-size: 16px;
+  }
+  #experiencia h1{
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+}
+
+
+@media (max-width: 425px) {
+  #experiencia h1 {
+    font-size: clamp(1.5rem, 6vw, 3rem);
   }
 }

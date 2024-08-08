@@ -29,11 +29,11 @@
       </div>
 
       <div class="dropdown_menu">
-        <li><a href="hero">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="services">Services</a></li>
-        <li><a href="contact">Contact</a></li>
-        <li><a href="#" class="action-btn">Get Started</a></li>
+        <li><a href="hero">Sobre</a></li>
+        <li><a href="about">Projetos</a></li>
+        <li><a href="services">Curriculo</a></li>
+        <li><a href="contact">Soft Skills</a></li>
+        <li><a href="#" class="action-btn">Contato</a></li>
       </div>
     </header>
     <main>
@@ -94,11 +94,7 @@
       </section>
 
       <section id="techs">
-        <div class="techs-title">
-          <h1 class="gradient-fade">
-            TECNOLOGIAS QUE ESTUDO E TENHO INTERESSE
-          </h1>
-        </div>
+        <h1 class="gradient-fade">TECNOLOGIAS QUE ESTUDO E TENHO INTERESSE</h1>
         <div class="card-wrapper">
           <div class="skill-card">
             <img src="/assets/images/python.svg" alt="Python logo" />
@@ -144,7 +140,7 @@
       </section>
 
       <section id="experiencia">
-        <h1 class="gradient-fade respo-title">EXPERIÊNCIA</h1>
+        <h1 class="gradient-fade">EXPERIÊNCIA</h1>
         <div class="logos">
           <div class="logos-slide">
             <a
@@ -193,9 +189,84 @@
       </section>
 
       <section id="formulario">
+        <h1 class="gradient-fade respo-title">ENTRE EM CONTATO</h1>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <label for="">Nome</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Digite seu nome"
+            autocomplete="off" />
+          <label for="">E-mail</label>
+          <input type="email" name="email" placeholder="Digite seu e-mail" />
+          <label for="">Mensagem</label>
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Digite sua mensagem"></textarea>
+          <button id="submit-btn" type="submit">Enviar mensagem</button>
 
+          <input
+            type="hidden"
+            name="accessKey"
+            value="39917079-3e08-4d4d-9c6f-10b6e7b9b5e9" />
+
+          <input
+            type="hidden"
+            name="redirectTo"
+            value="http://127.0.0.1:5501/form-ty.html" />
+        </form>
       </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-section">
+          <h3>Empresas Neste</h3>
+          <ul>
+            <li><a href="#">Start Café</a></li>
+            <li><a href="#">Nova Development</a></li>
+            <li><a href="#">Gumpee</a></li>
+            <li><a href="#">Hype Pro</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Redes</h3>
+          <ul>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">WhatsApp</a></li>
+            <li><a href="#">Email</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Curiosos</h3>
+          <ul>
+            <li><a href="#">Steam</a></li>
+            <li><a href="#">Twitch</a></li>
+            <li><a href="#">Discord</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Para baixar</h3>
+          <ul>
+            <li><a href="#">Landing-page</a></li>
+            <li><a href="#">Curriculo</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Idiomas</h3>
+          <ul>
+            <li><a href="#">Inglês</a></li>
+            <li><a href="#">Português</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Luís Felipe Mattos da Silva - Todos os direitos reservados
+      </div>
+    </footer>
     <script src="/assets/js/nav-header.js"></script>
   </body>
 </html>

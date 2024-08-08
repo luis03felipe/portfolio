@@ -29,3 +29,7 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; /* Cor do polegar ao passar o mouse */
 }
+
+.selected{
+  color: var(--main-green);
+}
