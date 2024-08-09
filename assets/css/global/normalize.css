@@ -11,7 +11,7 @@ html {
 }
 
 main {
-  background-image: url(/assets/images/bg.webp);
+  background-image: url(/assets/images/bg.webp); /* É eu sei que se eu tirar isso aqui eu ganho muita performance, mas escolhi deixar aqui pois era o que eu buscava esteticamente */
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--black);

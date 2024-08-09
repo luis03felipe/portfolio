@@ -37,6 +37,7 @@
 
 .exp-btn:hover {
   border-color: var(--main-green);
+  color: var(--main-green);
   transition: 0.5s ease-out;
 }
 
@@ -50,18 +51,16 @@
 }
 
 @media (max-width: 767px) {
- 
   .logos-slide img {
     height: 50px;
   }
-  .exp-btn{
+  .exp-btn {
     font-size: 16px;
   }
-  #experiencia h1{
+  #experiencia h1 {
     font-size: clamp(2rem, 6vw, 3rem);
   }
 }
-
 
 @media (max-width: 425px) {
   #experiencia h1 {
