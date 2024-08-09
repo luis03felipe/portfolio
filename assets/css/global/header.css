@@ -2,13 +2,6 @@ li {
   list-style: none;
 }
 
-main {
-  background-image: url(/assets/images/bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: var(--black);
-}
-
 .links a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
